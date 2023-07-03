@@ -127,7 +127,15 @@ function passwordArrayMaker() {
 }
 
 //------------- Password Maker? -------------//
-function makePassword() {}
+function makePassword(passwordArray) {
+  var password = ""
+  for (i=0 ; i < response ; i++) { 
+     password += passwordArray[Math.floor(Math.random() * passwordArray.length)]
+     console.log(password);
+  }
+  console.log(password);
+  return password
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
@@ -145,4 +153,11 @@ function generatePassword() {
     lowerCaseFunction() ;
     console.log(response);
   }
+  var password = ""
+  for (i=0 ; i < response ; i++) { 
+     password += passwordArray[Math.floor(Math.random() * passwordArray.length)]
+     console.log(password);
+  }
+  console.log(password);
+  return password
 }
