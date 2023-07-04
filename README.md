@@ -15,6 +15,10 @@
 - After the prompts have been answered, a randomly generated password will be displayed in the textbox on the screen. 
 - You should be able to repeat this as many times as you would like.
 
+## Starter-Code:
+- In this repo, there is a folder entitled "starter-code". This is the code that was given to me to work with (HTML, CSS, and basic JS). 
+- I also received help from a tutor with creating the for loop near the bottom of the JS file.
+
 ## Screen Shot:
 <img src="./screen-shot-password-generator.png">
 
